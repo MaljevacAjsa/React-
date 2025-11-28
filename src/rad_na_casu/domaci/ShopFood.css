@@ -1,0 +1,21 @@
+.sub_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 180px;
+  height: 200px;
+  background-color: palevioletred;
+  color: white;
+  border-radius: 6px;
+}
